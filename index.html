@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="publict/img/css/style.css">
+</head>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="https://assets-a2.kompasiana.com/items/album/2022/06/07/whatsapp-image-2022-06-07-at-12-29-20-629ee60daa3ccd31ef600502.jpeg?t=o&v=500" style="width:1000px; height: auto;">
+  <div class="text">Caption Text</div>
+  <div class="text2">Doa Dhuha</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://foto.data.kemdikbud.go.id/getImage/20275997/3.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+  <div class="text2">Nama kajian</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://alikrom.ponpes.id/wp-content/uploads/2021/10/IMG_0380-300x168.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+  <div class="text2">Nama kajian</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center; color: transparent;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+</body>
+</html> 
