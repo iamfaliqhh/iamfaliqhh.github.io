@@ -29,7 +29,6 @@ img {vertical-align: middle;}
     padding: 8px 12px;
     position: absolute;
     font-family: 'Martel Sans', 'sans-serif';
-    bottom: 947px;
     width: 100%;
     text-align: center;
   }
@@ -43,6 +42,10 @@ img {vertical-align: middle;}
   top: 0;
 }
 
+.img {
+  height: auto;
+  width: auto;
+}
 /* The dots/bullets/indicators */
 /* .dot {
   height: 15px;
