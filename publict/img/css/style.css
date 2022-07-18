@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -6,7 +8,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  height: 1000px;
+  height: auto;
   position: relative;
   margin: auto;
 }
@@ -45,6 +47,7 @@ img {vertical-align: middle;}
 .img {
   height: auto;
   width: auto;
+  object-fit: cover;
 }
 /* The dots/bullets/indicators */
 /* .dot {
@@ -75,4 +78,8 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+nav a{
+  text-decoration: none;
 }
