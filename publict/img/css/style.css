@@ -12,6 +12,25 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: 	#337f7c;
+  padding: 20px;
+  }
+  .footer {
+    padding: 20px;
+    margin-top: 275px;
+    text-align: center;
+    background: #043b3b;
+  }
+
 
 /* Caption text */
 .text {
@@ -82,4 +101,87 @@ img {vertical-align: middle;}
 
 nav a{
   text-decoration: none;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: #337f7c;
+}
+
+
+.fakeimg {
+background-color: #043b3b;
+width: 100%;
+border-radius: 25px;
+text-align: center;
+padding: 2px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#043b3b;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #337f7c;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo {
+display: inline-block;
+vertical-align: top;
+width: 50px;
+height: 50px;
+margin-right: 20px;
+margin-top: 15px;    /* if you want it vertically middle of the navbar. */
 }
