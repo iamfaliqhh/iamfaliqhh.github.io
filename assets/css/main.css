@@ -1447,6 +1447,18 @@ h3.detail-title {
   top: 25vh;
 }
 
+.bg-detail-logo {
+  background: url("../img/logo.png") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  height: 50vh;
+  width: 50vw;
+  left: 25%;
+  top: 25vh;
+}
+
 .bg-detail-work-2 {
   background: url("../img/detail-work/2/3.jpg") center no-repeat;
   background-size: cover;
