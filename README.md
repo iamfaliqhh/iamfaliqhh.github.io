@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iamfaliqhh/iamfaliqhh.github.io)
 
-This is my web portfolio built using HTML, CSS, and JavaScript. 
+This is my web based portfolio built using HTML, CSS, and JavaScript. 
 
 I've used css based animation to create the animations in this website.
 
