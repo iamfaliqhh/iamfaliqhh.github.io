@@ -4,7 +4,7 @@
 
 This is my web based portfolio built using HTML, CSS, and JavaScript.
 
-I've used css based animation to create the animations in this website.
+I've used CSS based animation to create the animations in this website.
 
 Hope you liked it!
 
