@@ -22,6 +22,6 @@ https://iamfaliqhh.github.io/
 - CSS
 - Javascript
 
-### Thanks!
+### Thanks!!!
 
 If you liked my portfolio website, don't forget to give it a ⭐.
