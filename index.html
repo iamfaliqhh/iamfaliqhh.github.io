@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
+<style>
+    .notice {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width:767px) {
+    .wrapper { display: none !important; }
+    .notice  { display: block; visibility: visible; }
+}
+</style>
+
 <body>
 
     <!-- Start Preload -->
@@ -26,6 +38,59 @@
     <div class="over-all"></div>
     <!-- End Preload -->
 
+    <div class="notice">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            .main-error-page {
+                min-height: 600px;
+                margin: 0px auto;
+                width: auto;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .error-title {
+                max-width: 529px; 
+                font-family: Roboto;
+                font-size: 38px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+                margin-bottom: 16px;
+            }
+
+            .error-subtitle {
+                max-width: 568px; 
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.31;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+                margin-bottom: 24px;
+            }
+        </style>
+        <div class="main-error-page">
+            <h1 class="error-title">
+              Woops! <br><br>can't view this on mobile :(
+            </h1>
+            <h2 class="error-subtitle">
+             For the best experience, use laptop/PC instead.
+             </h2>
+          </div>          
+    </div>
+
+    <div class="wrapper">
     <!-- Start Header -->
     <header>
 
@@ -276,6 +341,7 @@
             </div>
         </div>
 
+    </div>
     </div>
     <!-- End Content -->
 
