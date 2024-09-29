@@ -1555,6 +1555,42 @@ h3.detail-title {
   top: 25vh;
 }
 
+.bg-detail-premio {
+  background: url("../img/premio-01.png") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  height: 50vh;
+  width: 50vw;
+  left: 25%;
+  top: 25vh;
+}
+
+.bg-detail-revivify {
+  background: url("../img/revivify-01.png") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  height: 50vh;
+  width: 50vw;
+  left: 25%;
+  top: 25vh;
+}
+
+.bg-detail-warranty {
+  background: url("../img/warranty-01.png") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  height: 50vh;
+  width: 50vw;
+  left: 25%;
+  top: 25vh;
+}
+
 .about-work h3 {
   color: #fff;
   font-size: 17px;
