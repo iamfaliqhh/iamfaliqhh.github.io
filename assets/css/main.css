@@ -1543,6 +1543,18 @@ h3.detail-title {
   top: 25vh;
 }
 
+.bg-detail-drartex {
+  background: url("../img/drartex-01.png") center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  height: 50vh;
+  width: 50vw;
+  left: 25%;
+  top: 25vh;
+}
+
 .about-work h3 {
   color: #fff;
   font-size: 17px;
